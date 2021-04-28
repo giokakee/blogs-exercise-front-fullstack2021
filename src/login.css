@@ -1,0 +1,156 @@
+.loginUsername {
+  margin-bottom: -30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: chocolate;
+}
+.loginUsername-label {
+  position: absolute;
+  border-bottom: 1px solid black;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  bottom: 0px;
+}
+
+.loginUsername-input {
+  height: 100%;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+}
+.loginUsername-span {
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+  transition: 0.3s ease;
+}
+
+.loginUsername-input:focus + .loginUsername-label .loginUsername-span,
+.loginUsername-input:valid + .loginUsername-label .loginUsername-span {
+  transform: translateY(-150%);
+  font-size: 15px;
+  color: #03058b;
+}
+
+.loginPassword {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 30px;
+}
+.loginPassword-label {
+  position: absolute;
+  border-bottom: 1px solid black;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.loginPassword-input {
+  height: 100%;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+}
+.loginPassword-span {
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+  transition: 0.3s ease;
+}
+
+.loginPassword-input:focus + .loginPassword-label .loginPassword-span,
+.loginPassword-input:valid + .loginPassword-label .loginPassword-span {
+  transform: translateY(-155%);
+  font-size: 15px;
+  color: #03058b;
+}
+
+@media all and (max-width: 1000px) {
+  .loginUsername {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(248, 108, 8);
+  }
+  .loginUsername-label {
+    position: absolute;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    bottom: 0px;
+  }
+
+  .loginUsername-input {
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+  }
+  .loginUsername-span {
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    transition: 0.3s ease;
+  }
+
+  .loginUsername-input:focus + .loginUsername-label .loginUsername-span,
+  .loginUsername-input:valid + .loginUsername-label .loginUsername-span {
+    transform: translateY(-150%);
+    font-size: 10px;
+    color: #03058b;
+  }
+
+  .loginPassword {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 20px;
+  }
+  .loginPassword-label {
+    position: absolute;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+  }
+
+  .loginPassword-input {
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+  }
+  .loginPassword-span {
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    transition: 0.3s ease;
+  }
+
+  .loginPassword-input:focus + .loginPassword-label .loginPassword-span,
+  .loginPassword-input:valid + .loginPassword-label .loginPassword-span {
+    transform: translateY(-155%);
+    font-size: 10px;
+    color: #03058b;
+  }
+}

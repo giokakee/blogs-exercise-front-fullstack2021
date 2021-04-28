@@ -1,0 +1,212 @@
+@media all and (max-width: 1000px) {
+  .App {
+    font-family: "Open Sans", sans-serif;
+  }
+  body {
+    max-width: 1000px;
+  }
+  .App {
+    background-color: orange;
+    background: url("https://img2.pngio.com/ink-bottle-png-hd-png-pictures-vhvrs-spilled-ink-bottle-png-2338_1283.png");
+    background-repeat: no-repeat;
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .formDiv {
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: pink(147, 151, 151);
+    justify-content: center;
+  }
+  .formsDivInside {
+    margin-top: 20px;
+  }
+  .blogsDiv1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .blogsDiv {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    min-width: 270px;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  .blog {
+    width: 200px;
+    word-wrap: break-word;
+  }
+
+  .blogsList {
+    list-style-type: none;
+  }
+  .errorDiv,
+  .succesDiv {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 100;
+    width: 100%;
+  }
+
+  .errorMessage {
+    border: 1px solid red;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 13px;
+    transition: 0.5s;
+    color: red;
+  }
+  .succesMessage {
+    border: 1px solid rgb(0, 255, 85);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 13px;
+    transition: 0.5s;
+    color: rgb(0, 255, 85);
+  }
+  .create {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    width: auto;
+    font-size: 9px;
+  }
+
+  .userNameDiv {
+    position: inherit;
+    justify-content: center;
+    width: auto;
+    display: flex;
+    width: 100%;
+    background-color: pink;
+  }
+  .user {
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+    font-size: 10px;
+    height: 100%;
+  }
+  .name {
+    margin-bottom: -10px;
+    cursor: default;
+  }
+  .loggedIn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .username {
+    opacity: 0.5;
+    margin-bottom: -5px;
+    cursor: default;
+  }
+  .nameUserName {
+    display: block;
+  }
+  .B {
+    color: rgb(174, 0, 255);
+    margin-left: 5px;
+  }
+
+  .createBlogDiv {
+    margin-top: 5px;
+    display: flex;
+  }
+  .createBlogDiv1 {
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blueviolet;
+  }
+  .next {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .title {
+    font-size: 10px;
+  }
+  .createBlogDiv p {
+    cursor: pointer;
+    border-bottom: 1px solid black;
+  }
+
+  button {
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .editForms {
+    background-color: palegoldenrod;
+    display: flexbox;
+    position: absolute;
+    margin-bottom: 500px;
+    margin-left: 300px;
+  }
+
+  .deleteDiv {
+    float: right;
+  }
+
+  .logo {
+    position: relative;
+    background-color: khaki;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    background: url("https://images.squarespace-cdn.com/content/513a3459e4b08c563beff5d6/1366233640432-RWKKGDJJJPJ3K1ISYMJN/blog+header+icon.png?format=1000w&content-type=image%2Fpng");
+    background-repeat: round;
+    top: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-20%);
+  }
+  button {
+    outline: none;
+    height: 15px;
+    width: 70px;
+    font-size: 10px;
+  }
+
+  .likesDiv {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 40px;
+    font-size: 10px;
+  }
+  .likesDiv1 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+  }
+  .likes {
+    margin-left: 5px;
+    margin-top: 13px;
+  }
+  .heart {
+    height: 20px;
+    width: 20px;
+  }
+}

@@ -1,0 +1,249 @@
+.registerName {
+  margin-bottom: -30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: chocolate;
+}
+.registerName-label {
+  position: absolute;
+  border-bottom: 1px solid black;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  bottom: 0px;
+}
+
+.registerName-input {
+  height: 100%;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+}
+.registerName-span {
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+  transition: 0.3s ease;
+}
+
+.registerName-input:focus + .registerName-label .registerName-span,
+.registerName-input:valid + .registerName-label .registerName-span {
+  transform: translateY(-155%);
+  font-size: 15px;
+  color: #03058b;
+}
+
+.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
+}
+
+.registerUsername {
+  margin-bottom: -30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.registerUsername-label {
+  position: absolute;
+  border-bottom: 1px solid black;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.registerUsername-input {
+  height: 30px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+}
+.registerUsername-span {
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+  transition: 0.3s ease;
+}
+
+.registerUsername-input:focus + .registerUsername-label .registerUsername-span,
+.registerUsername-input:valid + .registerUsername-label .registerUsername-span {
+  transform: translateY(-155%);
+  font-size: 15px;
+  color: #03058b;
+}
+
+.registerPassword {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  height: 30px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.registerPassword-label {
+  position: absolute;
+  border-bottom: 1px solid black;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.registerPassword-input {
+  height: 100%;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+}
+.registerPassword-span {
+  position: absolute;
+  bottom: 0px;
+  left: 1px;
+  transition: 0.3s ease;
+}
+
+.registerPassword-input:focus + .registerPassword-label .registerPassword-span,
+.registerPassword-input:valid + .registerPassword-label .registerPassword-span {
+  transform: translateY(-155%);
+  font-size: 15px;
+  color: #03058b;
+}
+
+@media all and (max-width: 1000px) {
+  .registerName {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 20px;
+    background-color: chocolate;
+    margin-bottom: -10px;
+  }
+  .registerName-label {
+    position: absolute;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    bottom: 0px;
+  }
+
+  .registerName-input {
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+  }
+  .registerName-span {
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    transition: 0.3s ease;
+  }
+
+  .registerName-input:focus + .registerName-label .registerName-span,
+  .registerName-input:valid + .registerName-label .registerName-span {
+    transform: translateY(-155%);
+    font-size: 10px;
+    color: #03058b;
+  }
+
+  .registerUsername {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+  .registerUsername-label {
+    position: absolute;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+  }
+
+  .registerUsername-input {
+    height: 30px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+  }
+  .registerUsername-span {
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    transition: 0.3s ease;
+  }
+
+  .registerUsername-input:focus
+    + .registerUsername-label
+    .registerUsername-span,
+  .registerUsername-input:valid
+    + .registerUsername-label
+    .registerUsername-span {
+    transform: translateY(-155%);
+    font-size: 10px;
+    color: #03058b;
+  }
+
+  .registerPassword {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  .registerPassword-label {
+    position: absolute;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+  }
+
+  .registerPassword-input {
+    height: 100%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+  }
+  .registerPassword-span {
+    position: absolute;
+    bottom: 0px;
+    left: 1px;
+    transition: 0.3s ease;
+  }
+
+  .registerPassword-input:focus
+    + .registerPassword-label
+    .registerPassword-span,
+  .registerPassword-input:valid
+    + .registerPassword-label
+    .registerPassword-span {
+    transform: translateY(-155%);
+    font-size: 10px;
+    color: #03058b;
+  }
+}

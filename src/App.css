@@ -1,38 +1,177 @@
 .App {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: orange;
+  background: url("https://img2.pngio.com/ink-bottle-png-hd-png-pictures-vhvrs-spilled-ink-bottle-png-2338_1283.png");
+  background-repeat: no-repeat;
+}
+.formDiv {
+  position: inherit;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: pink;
+  height: auto;
+}
+.formsDivInside {
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.blogsDiv1 {
+  display: flex;
+  justify-content: center;
+}
+
+.blogsDiv {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  min-width: 300px;
+  max-width: 700px;
   text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+.blog {
+  width: 500px;
+  word-wrap: break-word;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blogsList {
+  list-style-type: none;
+}
+.errorDiv,
+.succesDiv {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 200;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.errorMessage {
+  border: 1px solid red;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 13px;
+  transition: 0.5s;
+  color: red;
+}
+.succesMessage {
+  border: 1px solid rgb(0, 255, 85);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 13px;
+  transition: 0.5s;
+  color: rgb(0, 255, 85);
+}
+.create {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  width: auto;
+  font-size: 13px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.userNameDiv {
+  position: inherit;
+  justify-content: space-between;
+  width: auto;
+  display: flex;
+  width: 100%;
+  background-color: pink;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+  font-size: 15px;
+  height: 100%;
+}
+.name {
+  margin-bottom: -10px;
+  cursor: default;
+}
+.loggedIn {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.username {
+  opacity: 0.5;
+  margin-bottom: -10px;
+  cursor: default;
+}
+.nameUserName {
+  display: block;
+}
+.B {
+  color: rgb(174, 0, 255);
+  margin-left: 5px;
+}
+
+.createBlogDiv {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.title {
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  border: none;
+  margin: 5px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.editForms {
+  background-color: palegoldenrod;
+  display: flexbox;
+  position: absolute;
+  margin-bottom: 500px;
+  margin-left: 300px;
+}
+
+.deleteDiv {
+  float: right;
+}
+
+.logo {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 200px;
+  margin-bottom: 10px;
+  min-width: 150px;
+  background: url("https://images.squarespace-cdn.com/content/513a3459e4b08c563beff5d6/1366233640432-RWKKGDJJJPJ3K1ISYMJN/blog+header+icon.png?format=1000w&content-type=image%2Fpng");
+  background-repeat: round;
+  margin-top: 30px;
+}
+button {
+  outline: none;
+}
+
+.likesDiv {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  height: 40px;
+}
+.likesDiv1 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.likes {
+  margin-left: 10px;
+  margin-top: 20px;
 }
